@@ -26,7 +26,7 @@ select * from AmountOfFavSongsJohnAndMary;
 #----------------------------------------------------------
 
 SELECT (Artist.artist_first_name+' '+Artist.artist_last_name)AS Artist_name FROM Music_Friend.Artist,
-(SELECT (Artist.artist_first_name+' '+Artist.artist_last_name) FROM Artist WHERE Artist.artist_id=songs.song_id)AS song_title 
+(SELECT (Artist.artist_first_name+' '+Artist.artist_last_name) FROM Artist WHERE Artist.artist_id=songs.song_id)AS Song_title 
 INNER JOIN Weather_Table ON weather_Table.weather_id= Aritst.Artist_id
 INNER JOIN Season_Table ON Season_Table.season_id = Weather_Table.Season_id
 INNER JOIN Mood_table ON Mood_Table.mood_id = course_sections.course_id
