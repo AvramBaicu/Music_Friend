@@ -11,14 +11,14 @@ USE music_friend;
 Create or replace view AmountOfFavSongsJohnAndMary as
 SELECT 
    count(song_genres) as 'num_of_favorite_genres',
-    favorite_genre, CONCAT(first_name, ' ', last_name) AS name
+    favorite_genre, CONCAT(first_name, ' ', last_name) AS Name
 FROM songs
 JOIN streams USING (song_id)
 JOIN user_profile USING (profile_id)
 
 WHERE song_genres = favorite_genre and profile_id in ( 
 	select profile_id FROM user_profile where profile_id = 1 or profile_id=  3)
-Group by name 
+Group by Name 
 ORDER BY num_of_favorite_genres;
 
 select * from AmountOfFavSongsJohnAndMary;
