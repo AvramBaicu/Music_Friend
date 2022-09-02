@@ -1,0 +1,24 @@
+song_id,song_title,album,song_genres,artist_id,song_age,song_era,moods_id,weather_id
+1,Blinding Lights,After Hours,R&B,2,2020-03-20,20,1,1
+2,One Dance,Views,R&B,1,2016-04-29,10,6,8
+3,Hotline Bling,Null,R&B,1,2015-10-26,10,1,6
+4,Good News,Circles,Rap,3,2020-01-17,20,7,7
+5,Self Care,Swimming,Hip-Hop,3,2013-07-13,10,2,5
+6,D O D O,Null,Afrobeat,4,2021-11-19,20,9,8
+7,Happier,Divide ,Pop,5,2018-04-27,10,2,3
+8,Get lucky,Ram,Pop,8,2013-05-07,10,4,1
+9,Nail Tech,Come Home The Kids Miss You,Hip-Hop,6,2022-02-18,20,3,8
+10,Must be Doin' Somethin' Right,Doin' Somethin' Right,Country,7,2005-05-30,00,8,6
+11,Turn Me On,Null,Reggae,10,2003-10-13,00,9,6
+12,Calma,Null,Pop Latino,11,2018-10-05,10,8,1
+13,Enter Sandman,Metallica,Metal,16,1991-07-29,90,4,4
+14,Sunset Lover,Petit Biscuit - EP,Electric,18,2015-02-22,10,8,2
+15,What a Wonderful World,Null,Jazz,17,1967-09-01,60,8,1
+16,Damn,WHWD,Soul,13,2021-11-05,20,6,1
+17,Felony,Boyfriend,Afrobeat,12,2021-12-11,20,5,8
+18,Insane,Still Over It,Soul,14,2021-11-05,20,2,9
+19,Hair Down,Null,R&B,15,2019-08-10,10,3,1
+20,Like I Want You,Take Time,Soul,9,2019-11-20,10,10,6
+21,Chicago Freestyle,Dark Lane Demo Tapes,Rap,1,2020-05-01,20,8,8
+22,I Met You At the Station,Null,Jazz,19,2020-06-03,20,2,3
+23,,,,,,,,
